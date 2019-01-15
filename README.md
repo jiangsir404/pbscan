@@ -2,7 +2,7 @@
 基于burpsuite headless 的代理式被动扫描系统
 
 
-## 现有工具
+## 现有burp批量扫描工具
 ### headless burpsuite
 无头burpsuite, 即没有图形界面的burpsuite,可以再服务器上面运行.
 
