@@ -39,11 +39,12 @@ optional arguments:
 
 - [x] 再carbonator的基础上进行开发，通过内置bottle服务器实现burpsuite 1.7的扫描api接口
 - [x] 扫描接口可以实现发送数据包直接到scanner去扫描，无需经过spider, 自带cookie扫描。
+- [x] 自定义burpsuite扫描插入点(目前只扫描get和post参数), 自定义burpsuite扫描漏洞(去掉一些不重要的漏洞比如明文传送，HTML未设置字符集等)
 - [x] 通过接口可以实时获取扫描结果。
 - [x] 使用rabbitmq+pika 实现消息队列，每个数据包都有一个token和rid标识，支持多人共同扫描。
 - [x] 可以支持同时开多个headless burpsuite 来扫描以加快扫描速率。
 - [x] 支持burpsuite 报表结果显示，用thinkphp写的展示平台来进行结果展示。
-- [x] 利用burp 插件或chrome插件来进行代理获取数据包，可以实现代理式被动扫描。
+- [x] 利用burp插件或chrome插件来进行代理获取数据包，可以实现代理式被动扫描。
 
 ## 结果
 ![](1.jpg)
