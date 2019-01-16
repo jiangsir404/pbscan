@@ -46,9 +46,9 @@ optional arguments:
 - [x] 支持burpsuite 报表结果显示，用thinkphp写的展示平台来进行结果展示。
 - [x] 利用burp插件或chrome插件来进行代理获取数据包，可以实现代理式被动扫描。
 
-## 结果
+## api扫描接口
 ![](1.jpg)
-扫描结果显示:
+获取结果显示:
 ```
 [
 	{
