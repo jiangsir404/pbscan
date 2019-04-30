@@ -37,6 +37,8 @@ optional arguments:
 
 ## pbscan功能
 
+![](0.png)
+
 - [x] 再carbonator的基础上进行开发，通过内置bottle服务器实现burpsuite 1.7的扫描api接口
 - [x] 扫描接口可以实现发送数据包直接到scanner去扫描，无需经过spider, 自带cookie扫描。
 - [x] 自定义burpsuite扫描插入点(目前只扫描get和post参数), 自定义burpsuite扫描漏洞(去掉一些不重要的漏洞比如明文传送，HTML未设置字符集等)
