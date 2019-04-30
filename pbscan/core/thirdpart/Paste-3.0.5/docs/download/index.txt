@@ -1,0 +1,31 @@
+Downloads
+=========
+
+Each of these packages is available in several formats.  The source
+distribution is a complete set of documentation, tests, and the source
+files themselves.  There are also two "Egg" files: these are files
+`easy_install <http://peak.telecommunity.com/DevCenter/EasyInstall>`_
+can install directly into your ``site-packages/`` directory, and are
+Python-version specific.  The download files for the latest version
+are always located on the Cheese Shop pages (listed below).
+
+* `Paste <http://pypi.python.org/pypi/Paste>`_
+* `Paste Script <http://pypi.python.org/pypi/PasteScript>`_
+* `Paste Deploy <http://pypi.python.org/pypi/PasteDeploy>`_
+* `Paste WebKit <http://pypi.python.org/pypi/PasteWebKit>`_
+* `Wareweb <http://pypi.python.org/pypi/Wareweb>`_ (deprecated, use `Pylons
+  <https://pypi.python.org/pypi/Pylons>`_ instead)
+
+All the packages are available in some repositories, many rooted in
+http://bitbucket.org/ianb/
+
+* https://github.com/cdent/paste
+* http://bitbucket.org/ianb/pastescript
+* http://bitbucket.org/ianb/pastedeploy
+* https://github.com/Pylons/webob
+* ... and others
+
+..note:: Several of these repositories and projects are fairly stale and
+         insufficiently maintained. Work is in progress to get them on
+         life support, but it is unlikely they will ever be active projects
+         again. WebOb is still actively maintained.

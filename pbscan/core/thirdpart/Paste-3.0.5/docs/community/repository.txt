@@ -1,0 +1,7 @@
+Repository
+==========
+
+Paste is kept in a Git repository at
+http://github.com/cdent/paste
+
+Go there to make pull requests and report issues.
