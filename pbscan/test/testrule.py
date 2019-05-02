@@ -78,19 +78,9 @@ def request_filter(request_info, _white_rules, _black_rules):
 postdata = open('../data.txt').read()
 
 white_rules = [
-    '*.bistu.edu.cn',
-    '59.64.78.183',
-    '59.64.78.37',
-    'localhost',
-    '1.360.cn'
 ]
 
 black_rules = [
-    '*.baidu.com',
-    '*.google.com',
-    '*.github.com',
-    '10.143.190.136',
-    'kua.360.cn'
 ]
 
 print request_filter(parse_request_service(postdata),'',black_rules)
