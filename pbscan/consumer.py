@@ -1,48 +1,37 @@
 #!/usr/bin/env python
 # coding:utf-8
+
+"""消费者脚本
+负责从消息队列中获取数据，然后发送到burp的扫描结果，以及解析burp扫描的结果并且保存到数据库中
+
+Usage:
+    python consumer.py burp 8083 //表示发送到burp监听的8083端口
+    TODO: python consumer.py poc 8084 //表示发送到poc监听的8084端口
+"""
+
+# 标准库
 import sys
 import time
-import pika
-import os
-from threading import Thread
 import json
 import requests
-from pika_mq import receive, receive2
-from config import scan_rules, debug, mydb
-from lib.parse_request import parse_request_service, getRid
-from lib.utils import highlight
 import gevent
 from gevent import monkey
-
 monkey.patch_all()
+
+# 第三方库
+from lib.utils.pika_mq import receive, receive2
+from config import scan_rules, debug, mydb
+from lib.http.parse_request import parse_request_service, getRid
+from lib.http.basic import detect_url_live
+
 reload(sys)
 sys.setdefaultencoding('utf8')
 
 scan_port = sys.argv[2];
 scan_api = "http://localhost:"+scan_port+"/scan/?token=%s"
 getStatus_api = "http://localhost:"+scan_port+"/get/status/?token="
-
-
 print 'scan api:',scan_api
 
-'''
-{'token': userToken, 'status': status, 'issues': len(issues),
- 'request num': requests_num,
-'insert point': nip,'issues':issuesList,'scanTime':httpService['scanTime']}'
-'''
-
-def is_duplicate(table, rid):
-    try:
-        sql = "SELECT COUNT(*) FROM {} where rid ='{}'".format(table, rid.strip())
-        query_result = mydb.query(sql)
-        count = [row[0] for row in query_result]
-        if count[0] >= 1:
-            return True
-        else:
-            return False
-    except Exception, e:
-        print highlight('[!] {}'.format(str(e)), 'red')
-        return False
 
 def saveRequest(token, request_raw):
     request_info = parse_request_service(request_raw)
@@ -54,24 +43,42 @@ def saveRequest(token, request_raw):
 
 
 def sendToScan(token, body):
+    """
+    发送到burp扫描api接口
+    :param token: 用户token
+    :param body: 完整数据包
+    :return: save success or error
+    """
     url = scan_api % token
-    try:
-        res = requests.post(url, data=body,timeout=5).text
-        if res:
-            request_info = saveRequest(token,body);
-            request_info['scan_burp'] = 0
-            if not is_duplicate('requests',getRid(body)):
-                mydb.insert('requests', request_info)
-            return res
-        else:
-            pass
-    except Exception,e:
-        print e
+    request_service_info = parse_request_service(body)
+    if detect_url_live('http://'+request_service_info['host']+':'+str(request_service_info['port'])+request_service_info['path']):
+        # 先检测数据包的存活性，然后再发送到burp扫描
+        try:
+            res = requests.post(url, data=body,timeout=5).text
+            if res:
+                request_info = saveRequest(token,body);
+                request_info['scan_burp'] = 0
+                if not mydb.is_duplicate('requests',getRid(body),token): #多次去重，防止因为扫描延时导致重复插入
+                    mydb.insert('requests', request_info)
+                return res
+            else:
+                pass
+        except Exception,e:
+            print e
+    else:
+        print 'url time out'
 
-
-# return 'no data return'
 
 def getStatus():
+    """解析api反馈的结果，并且存入数据库
+
+        扫描结果json格式如下:
+        '''
+        {'token': userToken, 'status': status, 'issues': len(issues),
+         'request num': requests_num,'insert point': nip,'issues':issuesList,'scanTime':httpService['scanTime']}'
+        '''
+    :return: None
+    """
     while True:  # 不需要退出
         url = getStatus_api
         try:
@@ -89,7 +96,7 @@ def getStatus():
                         issues = line.pop('issues')
                         try:
                             mydb.update('requests', {'scan_burp': 1}, {'token': line['token'], 'rid': line['rid']})
-                            if not is_duplicate('results',line['rid']): #如果已经保存了记录，就不重复插入results和issues表。
+                            if not mydb.is_duplicate('results',line['rid'],line['token']): #如果已经保存了记录，就不重复插入results和issues表。
                                 mydb.insert('results', line)
                                 for issue in issues:
                                     issue['token'] = line['token']
@@ -114,8 +121,14 @@ def getStatus():
             print 'error2',e
 
 
-# 传给receive函数的处理函数
 def handle(id, body):
+    """传给receive函数的调度函数
+
+    sendToScan和getStatus需要异步操作，否则就会阻塞，虽然可以开启多个线程，但当多个线程都被阻塞后就没法跑了。
+    res2 = getStatus()
+    print ' [x]',res2
+    print " [x] Done"
+    """
     print " [x] Consumer_%s Received,send to burp scan" % (str(id))
     body = json.loads(body)
     token = body['token']
@@ -128,15 +141,9 @@ def handle(id, body):
     print ' [x]', res1
 
 
-#
-# # sendToScan和getStatus需要异步操作，否则就会阻塞，虽然可以开启多个线程，但当多个线程都被阻塞后就没法跑了。
-#
-# res2 = getStatus()
-# print ' [x]',res2
-# print " [x] Done"
-
-
 def handle2(id, body):
+    """TODO: POC调度函数
+    """
     print " [x] Consumer_%s Received,send to poc scan" % (str(id))
     print body
     time.sleep(3)

@@ -1,20 +1,24 @@
 #!/usr/bin/env python        
 # coding:utf-8
 
+"""
+@burpsuite scan api plugin (base headless)
+
+	-f=data.txt 添加file, 读取数据包，然后发送给scanner
+	-proxy: 开启代理，将流量保存到../log/burp.log中
+	-debug: 开启调试
+	-auto:  开启内置bottle服务器对api接口监听
+"""
 
 # burpsuite 接口
 from burp import IBurpExtender
 from burp import IHttpListener
 from burp import IScannerListener
-# from java.net import URL
 from java.io import File
 
 # python 标准库
 from colorprint import Logger
 import time
-import os
-import urlparse
-import urllib
 import hashlib
 import sys
 import json
@@ -24,15 +28,6 @@ sys.path.append('./thirdpart/Paste-3.0.5')
 sys.path.append('./thirdpart/six-1.12.0')
 import paste
 from bottle import route, run, get, post, request
-
-'''
-@burpsuite scan api plugin (base headless)
-
-	-f=data.txt 添加file, 读取数据包，然后发送给scanner
-	-proxy: 开启代理，将流量保存到../log/burp.log中
-	-debug: 开启调试
-	-auto:  开启内置bottle服务器对api接口监听
-'''
 
 logger = Logger()
 
@@ -113,15 +108,16 @@ class BurpExtender(IBurpExtender, IHttpListener, IScannerListener):
             token = request.query.token
             return self.getStatus(token)
 
-        # @route('/generate',method='GET')
-        # def generate():
-        # 	self.generateReport('HTML')
-
         self._callbacks.issueAlert('listen to %s'%str(self.auto))
         run(server='paste', host='127.0.0.1', port=self.auto, debug=True)  # paste+bottle 实现非阻塞式web服务器
 
     # ------------------------- burpsuite 扫描以及扫描结果监控-----------------------------
+
     def sendScanner(self, base_request, token=None):
+        """发送到burp scanner扫描
+            1. 解析base_request
+            2. 将数据包的[token,httpService,doActiveScan]放入队列中
+        """
         httpService, base_request = self.parseReq(base_request)
         if self.debug:
             print 'base_request:', self.b2s(base_request)
@@ -146,6 +142,9 @@ class BurpExtender(IBurpExtender, IHttpListener, IScannerListener):
         return 'send success'
 
     def monitorQueue(self):
+        """监视队列完成情况
+            用于-f参数传入数据包扫描的结果获取，知道queueItems队列为空才结束。
+        """
         self._callbacks.issueAlert('monitor queue start:')
         print 'monitor start:'
         try:
@@ -165,7 +164,7 @@ class BurpExtender(IBurpExtender, IHttpListener, IScannerListener):
                         self.queueItems.remove(queueItem)
                         self.scanner_results.extend(issues)
 
-                    # 如果扫描超过15s以及发包暂停15s,则认为超时，手动取消
+                    # 如果扫描超过以及发包暂停过长,则认为超时，手动取消，扫描超时和发包超时时间可手动设置
                     if (int(time.time()) - startime >= self.packet_timeout) and (
                             int(time.time()) - self.last_packet_seen >= self.packet_timeout):  # 如果线程停止超时，则取消掉该任务
                         print 'time out', (int(time.time()) - startime >= self.packet_timeout), (
@@ -191,6 +190,18 @@ class BurpExtender(IBurpExtender, IHttpListener, IScannerListener):
             print e
 
     def getStatus(self, userToken):
+        """用于接口的结果获取
+            获取queueItems中的扫描状态，以json格式返回, 返回有3种状态
+            1. 扫描完成finish, 返回格式: {'token': scanToken, 'rid': httpService['rid'], 'status': status, 'issues_num': len(issues),
+                             'issues': len(issues), 'request_num': requests_num,
+                             'insert_point': nip, 'issues': issuesList, 'scanTime': httpService['scanTime'],
+                             'saveFile': saveFile,'scanUrl':scanUrl}
+            2. 扫描正在进行, 返回格式:{'token': scanToken, 'rid': httpService['rid'], 'status': status, 'issues_num': len(issues),
+                         'request_num': requests_num, 'insert_point': nip, 'scanTime': httpService['scanTime'],'scanUrl':scanUrl}
+            3. 扫描出错, 返回格式: {'token': scanToken, 'status': status, 'msg': 'save error'}
+
+            扫描完成后从结果队列移除，即只能通过结果获取到一次扫描结果，防止扫描结果堆积。
+        """
         # print self.queueItems
         messages = []
         print self.queueItems, len(self.queueItems)
@@ -285,7 +296,6 @@ class BurpExtender(IBurpExtender, IHttpListener, IScannerListener):
         file_name = '../output/burp_report_' + token + '_' + time.strftime(
             "%Y%m%d%H%M%S", time.localtime(time.time())) + '.' + format.lower()
         self._callbacks.generateScanReport(format, issues, File(file_name))
-        # os.system('python3 parsexml.py ' + file_name)
         time.sleep(1)
         return file_name.strip('../output/')
 

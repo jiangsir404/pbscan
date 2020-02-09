@@ -7,15 +7,15 @@ import json
 
 token = 'parse_burp_log'
 
-with open('../data.txt') as f:
+with open('./data.txt') as f:
 	data = f.read()
 
 option = sys.argv[1]
 if len(sys.argv) == 3:
 	token = sys.argv[2]
 
-scan_api = "http://localhost:8084/scan/?token="+token
-getStatus_api = 'http://localhost:8084/get/status/?token='+token
+scan_api = "http://localhost:8083/scan/?token="+token
+getStatus_api = 'http://localhost:8083/get/status/?token='+token
 
 if option == 'scan':
 	rep = requests.post(url=scan_api,data=data)

@@ -4,6 +4,7 @@ passive scan by headless burpsuite
 
 基于headless burpsuite 的被动扫描工具
 
+
 ## 环境
 如果自己有burpsuite 环境，则直接安装carbonator.py 这个插件即可，如果没有burpsuite插件环境，可以将UserConfigPro.json 加入到`C:\Users\xx\AppData\Roaming\BurpSuite` 目录下
 
@@ -19,6 +20,7 @@ pip install MySQL-python
 ```
 ## usage
 ### pbscan 启动
+
 ```
 usage: pbscan.py [-h] [-f F] [-headless] [-debug] [-proxy] [-auto AUTO]
 
@@ -79,3 +81,9 @@ normal mode:
 - [x] 代理监听数据包并且保存到日志
 - [x] 数据包以及结果存入数据库
 
+
+## Thinks
+
+服务端数据库设计和入库部分参考了 安全小飞侠的NagaScan的设计
+
+burpsuite扫描插件二次开发于carbonator插件

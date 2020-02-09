@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #coding:utf-8
-from lib.mysql import Mysql
+from lib.db.mysql import Mysql
 
 hostname = 'http://localhost'
 debug = False

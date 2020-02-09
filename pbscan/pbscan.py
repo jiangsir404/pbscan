@@ -1,9 +1,17 @@
 #!/usr/bin/env python
 # coding:utf-8
 
+"""burpsuite headless快捷启动脚本
+
+Usage:
+	python pbscan -h
+	python pbscan.py -auto=8083 -headless  //在服务端运行pbscan.py , 使用-headless无头模式运行burpsuite, 监听8083端口, 接收传过来的数据包。
+"""
+
 import argparse
 import os.path
-import os,sys
+import os
+import sys
 
 runHeadless = False
 debug = False

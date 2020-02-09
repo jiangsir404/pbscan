@@ -1,0 +1,2897 @@
+======================================================
+18:22:22  http://localhost:80  [127.0.0.1]
+======================================================
+GET /myctf/xss/form.php?id=1 HTTP/1.1
+Host: localhost
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; csrftoken=KpM8eEEXlrYoJPzHkdqUVikmD5BNKkLi; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+18:22:34  http://localhost:80  [127.0.0.1]
+======================================================
+GET /myctf/xss/form.php?id=1 HTTP/1.1
+Host: localhost
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; csrftoken=KpM8eEEXlrYoJPzHkdqUVikmD5BNKkLi; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+18:22:38  http://localhost:80  [127.0.0.1]
+======================================================
+POST /myctf/xss/form.php?id=1 HTTP/1.1
+Host: localhost
+Content-Length: 7
+Cache-Control: max-age=0
+Origin: http://localhost
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost/myctf/xss/form.php?id=1
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; csrftoken=KpM8eEEXlrYoJPzHkdqUVikmD5BNKkLi; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c
+Connection: close
+
+x=1&d=2
+======================================================
+
+
+
+======================================================
+18:22:47  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+18:23:47  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+18:24:47  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+18:25:47  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+======================================================
+22:21:44  http://localhost:80  [127.0.0.1]
+======================================================
+GET /myctf/xss/xss.php?x=1&d=1 HTTP/1.1
+Host: localhost
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; csrftoken=KpM8eEEXlrYoJPzHkdqUVikmD5BNKkLi; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+22:21:46  http://localhost:80  [127.0.0.1]
+======================================================
+GET /favicon.ico HTTP/1.1
+Host: localhost
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost/myctf/xss/xss.php?x=1&d=1
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; csrftoken=KpM8eEEXlrYoJPzHkdqUVikmD5BNKkLi; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+22:21:46  http://localhost:80  [127.0.0.1]
+======================================================
+GET /myctf/xss/xss.php?x=1&d=1 HTTP/1.1
+Host: localhost
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; csrftoken=KpM8eEEXlrYoJPzHkdqUVikmD5BNKkLi; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:51:55  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:51:56  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:51:56  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:51:56  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:51:56  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:51:56  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:52:23  http://localhost:80  [127.0.0.1]
+======================================================
+GET /myctf/xss/xss.php?x=1&d=1 HTTP/1.1
+Host: localhost
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; csrftoken=KpM8eEEXlrYoJPzHkdqUVikmD5BNKkLi; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:52:29  http://localhost:80  [127.0.0.1]
+======================================================
+GET /myctf/xss/xss.php?x=1&d=1 HTTP/1.1
+Host: localhost
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; csrftoken=KpM8eEEXlrYoJPzHkdqUVikmD5BNKkLi; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:52:39  http://59.64.78.37:3001
+======================================================
+GET /Less-8/?id=1 HTTP/1.1
+Host: 59.64.78.37:3001
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:52:41  http://59.64.78.37:3001
+======================================================
+GET /favicon.ico HTTP/1.1
+Host: 59.64.78.37:3001
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://59.64.78.37:3001/Less-8/?id=1
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:52:44  http://59.64.78.37:3001
+======================================================
+GET /Less-1/?id=1 HTTP/1.1
+Host: 59.64.78.37:3001
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:52:45  http://59.64.78.37:3001
+======================================================
+GET /favicon.ico HTTP/1.1
+Host: 59.64.78.37:3001
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://59.64.78.37:3001/Less-1/?id=1
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:52:59  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:53:02  http://59.64.78.37:3001
+======================================================
+GET /Less-1/?id=1 HTTP/1.1
+Host: 59.64.78.37:3001
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:53:03  http://59.64.78.37:3001
+======================================================
+GET /favicon.ico HTTP/1.1
+Host: 59.64.78.37:3001
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://59.64.78.37:3001/Less-1/?id=1
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:53:13  http://127.0.0.1:8823
+======================================================
+GET / HTTP/1.1
+Host: 127.0.0.1:8823
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: csrftoken=sxfYPWW1Fr3VIhdrzv7PulssfoX1Cfjd
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:53:13  http://127.0.0.1:8823
+======================================================
+GET /robots.txt HTTP/1.1
+Host: 127.0.0.1:8823
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: csrftoken=sxfYPWW1Fr3VIhdrzv7PulssfoX1Cfjd
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:53:14  http://127.0.0.1:8823
+======================================================
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8823
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8823/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: csrftoken=sxfYPWW1Fr3VIhdrzv7PulssfoX1Cfjd
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:53:21  http://localhost:80  [127.0.0.1]
+======================================================
+GET /myctf/xss/form.php HTTP/1.1
+Host: localhost
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; csrftoken=KpM8eEEXlrYoJPzHkdqUVikmD5BNKkLi; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:53:34  http://localhost:80  [127.0.0.1]
+======================================================
+POST /myctf/xss/form.php?id=1 HTTP/1.1
+Host: localhost
+Content-Length: 7
+Cache-Control: max-age=0
+Origin: http://localhost
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost/myctf/xss/form.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; csrftoken=KpM8eEEXlrYoJPzHkdqUVikmD5BNKkLi; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c
+Connection: close
+
+x=1&d=2
+======================================================
+
+
+
+======================================================
+23:53:59  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:54:37  http://59.64.78.37:3001
+======================================================
+GET /Less-1/?id=1 HTTP/1.1
+Host: 59.64.78.37:3001
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:54:38  http://59.64.78.37:3001======================================================
+GET /favicon.ico HTTP/1.1
+Host: 59.64.78.37:3001
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://59.64.78.37:3001/Less-1/?id=1
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:54:59  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:55:59  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:56:59  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:57:59  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:58:04  http://59.64.78.37:3001
+======================================================
+GET /Less-8/?id=1 HTTP/1.1
+Host: 59.64.78.37:3001
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:58:05  http://59.64.78.37:3001
+======================================================
+GET /favicon.ico HTTP/1.1
+Host: 59.64.78.37:3001
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://59.64.78.37:3001/Less-8/?id=1
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:59:07  http://59.64.78.37:3001
+======================================================
+GET /Less-8/?id=1 HTTP/1.1
+Host: 59.64.78.37:3001
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:59:08  http://59.64.78.37:3001
+======================================================
+GET /favicon.ico HTTP/1.1
+Host: 59.64.78.37:3001
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://59.64.78.37:3001/Less-8/?id=1
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:59:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:59:32  http://59.64.78.37:3001
+======================================================
+GET /Less-1/?id=1 HTTP/1.1
+Host: 59.64.78.37:3001
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:59:36  http://59.64.78.37:3001
+======================================================
+GET /Less-2/?id=1 HTTP/1.1
+Host: 59.64.78.37:3001
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:00:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:00:29  http://www.baidu.com:80  [61.135.169.121]
+======================================================
+GET / HTTP/1.1
+Host: www.baidu.com
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: BAIDUID=25073A42DE32AE567AFF0202FCA62D48:FG=1; BIDUPSID=25073A42DE32AE567AFF0202FCA62D48; PSTM=1537881657; delPer=0; delPer=0; BD_HOME=0; H_PS_PSSID=26524_1446_27213_21095_18560_28205_28131_27750_28140_27508
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:00:30  http://www.gstatic.com:80  [203.208.39.248]
+======================================================
+GET /generate_204 HTTP/1.1
+Host: www.gstatic.com
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:00:33  https://www.baidu.com:443  [61.135.169.121]
+======================================================
+GET / HTTP/1.1
+Host: www.baidu.com
+Connection: close
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: BAIDUID=25073A42DE32AE567AFF0202FCA62D48:FG=1; BIDUPSID=25073A42DE32AE567AFF0202FCA62D48; PSTM=1537881657; delPer=0; delPer=0; BD_HOME=0; H_PS_PSSID=26524_1446_27213_21095_18560_28205_28131_27750_28140_27508; BD_LAST_QID=10385858528119765808
+
+
+======================================================
+
+
+
+======================================================
+0:00:34  https://www.baidu.com:443  [61.135.169.121]
+======================================================
+GET /img/dong_41c10f9ee0a17d664b76404d3b276d09.gif HTTP/1.1
+Host: www.baidu.com
+Connection: close
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.baidu.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: BAIDUID=25073A42DE32AE567AFF0202FCA62D48:FG=1; BIDUPSID=25073A42DE32AE567AFF0202FCA62D48; PSTM=1537881657; delPer=0; delPer=0; BD_HOME=0; BDSVRTM=0; H_PS_PSSID=26524_1446_27213_21095_18560_28205_28131_28140_27508
+
+
+======================================================
+
+
+
+======================================================
+0:00:58  http://59.64.78.37:3003
+======================================================
+GET / HTTP/1.1
+Host: 59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:00:58  http://59.64.78.37:3003
+======================================================
+GET /login.php HTTP/1.1
+Host: 59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=impossible
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:01:10  http://59.64.78.37:3003
+======================================================
+POST /login.php HTTP/1.1
+Host: 59.64.78.37:3003
+Content-Length: 88
+Cache-Control: max-age=0
+Origin: http://59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/login.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=impossible
+Connection: close
+
+username=admin&password=password&Login=Login&user_token=1ae388afadce99c06c9cffe9caad6bb0
+======================================================
+
+
+
+======================================================
+0:01:10  http://59.64.78.37:3003
+======================================================
+GET /index.php HTTP/1.1
+Host: 59.64.78.37:3003
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/login.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=impossible
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:01:14  http://59.64.78.37:3003
+======================================================
+GET /security.php HTTP/1.1
+Host: 59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/index.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=impossible
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:01:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:01:27  http://59.64.78.37:3003
+======================================================
+POST /security.php HTTP/1.1
+Host: 59.64.78.37:3003
+Content-Length: 77
+Cache-Control: max-age=0
+Origin: http://59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=impossible
+Connection: close
+
+security=low&seclev_submit=Submit&user_token=ac2171adf3bd3225028a25fc3ae9b9d9
+======================================================
+
+
+
+======================================================
+0:01:27  http://59.64.78.37:3003
+======================================================
+GET /security.php HTTP/1.1
+Host: 59.64.78.37:3003
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=impossible
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:01:31  http://59.64.78.37:3003
+======================================================
+GET /vulnerabilities/sqli/ HTTP/1.1
+Host: 59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=impossible
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:01:36  http://59.64.78.37:3003
+======================================================
+GET /vulnerabilities/sqli/?id=1&Submit=Submit&user_token=64c290674c0fa4b1a9e6a3cdeb5426d8 HTTP/1.1
+Host: 59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=impossible
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:01:43  http://59.64.78.37:3003
+======================================================
+GET /vulnerabilities/xss_r/ HTTP/1.1
+Host: 59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/vulnerabilities/sqli/?id=1&Submit=Submit&user_token=64c290674c0fa4b1a9e6a3cdeb5426d8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=impossible
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:02:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:02:54  http://59.64.78.37:3003
+======================================================
+GET /vulnerabilities/xss_r/?name=11&user_token=245c69db086d93c8d075dfb57c8556d6 HTTP/1.1
+Host: 59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/vulnerabilities/xss_r/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=impossible
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:02:54  http://59.64.78.37:3003
+======================================================
+GET /vulnerabilities/xss_r/index.php HTTP/1.1
+Host: 59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/vulnerabilities/xss_r/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=impossible
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:02:59  http://59.64.78.37:3003
+======================================================
+GET /vulnerabilities/fi/?page=include.php HTTP/1.1
+Host: 59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/vulnerabilities/xss_r/index.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=impossible
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:03:03  http://59.64.78.37:3003
+======================================================
+GET /vulnerabilities/fi/?page=file1.php HTTP/1.1
+Host: 59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/vulnerabilities/fi/?page=include.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=impossible
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:03:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:04:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:05:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:06:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:07:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:08:01  http://59.64.78.37:3003
+======================================================
+GET /security.php HTTP/1.1
+Host: 59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/vulnerabilities/fi/?page=file1.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=impossible
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:08:05  http://59.64.78.37:3003
+======================================================
+POST /security.php HTTP/1.1
+Host: 59.64.78.37:3003
+Content-Length: 77
+Cache-Control: max-age=0
+Origin: http://59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=impossible
+Connection: close
+
+security=low&seclev_submit=Submit&user_token=fecd71a658201f40da6c9ae153e6af71
+======================================================
+
+
+
+======================================================
+0:08:05  http://59.64.78.37:3003
+======================================================
+GET /security.php HTTP/1.1
+Host: 59.64.78.37:3003
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=low
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:08:10  http://59.64.78.37:3003
+======================================================
+GET /vulnerabilities/sqli/ HTTP/1.1
+Host: 59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=low
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:08:14  http://59.64.78.37:3003
+======================================================
+GET /vulnerabilities/sqli/?id=1&Submit=Submit HTTP/1.1
+Host: 59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=low
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:08:17  http://59.64.78.37:3003
+======================================================
+GET /vulnerabilities/xss_r/ HTTP/1.1
+Host: 59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/vulnerabilities/sqli/?id=1&Submit=Submit
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=low
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:08:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:08:26  http://59.64.78.37:3003
+======================================================
+GET /vulnerabilities/xss_r/?name=11 HTTP/1.1
+Host: 59.64.78.37:3003
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://59.64.78.37:3003/vulnerabilities/xss_r/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=16igs2rer0va9mjo6qcss889b7; security=low
+Connection: close
+
+======================================================
+
+
+
+======================================================
+0:09:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:10:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:11:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:12:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:13:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:14:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:15:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:16:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:17:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:18:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:19:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:20:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:21:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:22:20  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:23:22  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+0:24:22  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+9:57:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+9:58:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+9:59:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:00:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:01:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:02:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:03:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:03:37  http://www.baidu.com:80  [220.181.112.244]
+======================================================
+GET / HTTP/1.1
+Host: www.baidu.com
+Purpose: prefetch
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: BAIDUID=25073A42DE32AE567AFF0202FCA62D48:FG=1; BIDUPSID=25073A42DE32AE567AFF0202FCA62D48; PSTM=1537881657; delPer=0; delPer=0; BD_HOME=0; H_PS_PSSID=26524_1446_27213_21095_18560_28205_28131_28140_27508
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:03:38  http://www.gstatic.com:80  [203.208.40.79]
+======================================================
+GET /generate_204 HTTP/1.1
+Host: www.gstatic.com
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:03:42  https://www.baidu.com:443  [220.181.112.244]
+======================================================
+GET / HTTP/1.1
+Host: www.baidu.com
+Connection: close
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: BAIDUID=25073A42DE32AE567AFF0202FCA62D48:FG=1; BIDUPSID=25073A42DE32AE567AFF0202FCA62D48; PSTM=1537881657; delPer=0; delPer=0; BD_HOME=0; H_PS_PSSID=26524_1446_27213_21095_18560_28205_28131_28140_27508; BD_LAST_QID=16299957838204162218
+
+
+======================================================
+
+
+
+======================================================
+10:04:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:04:31  http://www.baidu.com:80  [220.181.112.244]
+======================================================
+GET / HTTP/1.1
+Host: www.baidu.com
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: BAIDUID=25073A42DE32AE567AFF0202FCA62D48:FG=1; BIDUPSID=25073A42DE32AE567AFF0202FCA62D48; PSTM=1537881657; delPer=0; delPer=0; BD_HOME=0; H_PS_PSSID=26524_1446_27213_21095_18560_28205_28131_28140_27508
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:05:14  https://www.baidu.com:443  [220.181.112.244]
+======================================================
+GET / HTTP/1.1
+Host: www.baidu.com
+Connection: close
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: BAIDUID=25073A42DE32AE567AFF0202FCA62D48:FG=1; BIDUPSID=25073A42DE32AE567AFF0202FCA62D48; PSTM=1537881657; delPer=0; delPer=0; BD_HOME=0; H_PS_PSSID=26524_1446_27213_21095_18560_28205_28131_28140_27508
+
+
+======================================================
+
+
+
+======================================================
+10:05:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:05:38  http://www.gstatic.com:80  [203.208.40.79]
+======================================================
+GET /generate_204 HTTP/1.1
+Host: www.gstatic.com
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:06:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:07:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:08:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:09:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:10:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:11:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:12:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:13:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:14:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:15:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:16:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:17:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:18:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:19:04  http://localhost:80  [127.0.0.1]
+======================================================
+GET /myctf/xss/form.php HTTP/1.1
+Host: localhost
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; csrftoken=KpM8eEEXlrYoJPzHkdqUVikmD5BNKkLi; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:19:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:20:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:21:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:22:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:23:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:24:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:25:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:26:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:27:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:28:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:29:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:30:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:31:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:32:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:33:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:34:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:35:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:36:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:37:14  http://ipv6.google.com.hk:80  [2404:6800:4004:819:0:0:0:200e]
+======================================================
+GET /robots.txt HTTP/1.1
+Host: ipv6.google.com.hk
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:37:15  http://ipv6.google.com.hk:80  [2404:6800:4004:819:0:0:0:200e]
+======================================================
+GET /search?q=git+clone+git%40github.com%3Astamparm%2FDSVW.git HTTP/1.1
+Host: ipv6.google.com.hk
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:37:17  http://ipv6.google.com.hk:80  [2404:6800:4004:819:0:0:0:200e]
+======================================================
+GET /favicon.ico HTTP/1.1
+Host: ipv6.google.com.hk
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://ipv6.google.com.hk/search?q=git+clone+git%40github.com%3Astamparm%2FDSVW.git
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+10:37:30  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+23:49:32  https://everphoto.cn:443  [123.58.9.58]
+======================================================
+GET / HTTP/1.1
+Host: everphoto.cn
+Connection: close
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: _ga=GA1.2.180627465.1547383548; _gid=GA1.2.2046459839.1547383548
+If-None-Match: W/"5a5f5812-79f"
+If-Modified-Since: Wed, 17 Jan 2018 14:05:06 GMT
+
+
+======================================================
+
+
+
+======================================================
+23:50:00  https://everphoto.cn:443  [123.58.9.58]
+======================================================
+HEAD /status HTTP/1.1
+Host: everphoto.cn
+Connection: close
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: */*
+Referer: https://everphoto.cn/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: _ga=GA1.2.180627465.1547383548; _gid=GA1.2.2046459839.1547383548
+
+
+======================================================
+
+
+
+======================================================
+23:50:01  https://www.google-analytics.com:443  [203.208.40.99]
+======================================================
+GET /r/collect?v=1&_v=j72&a=743457828&t=pageview&_s=1&dl=https%3A%2F%2Feverphoto.cn%2F&dp=%2Flanding&ul=zh-cn&de=UTF-8&dt=%E6%97%B6%E5%85%89%E7%9B%B8%E5%86%8C-%E6%99%BA%E8%83%BD%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E3%80%81%E5%88%86%E7%B1%BB%E7%85%A7%E7%89%87%E7%9A%84%E7%A7%81%E5%AF%86%E7%9B%B8%E5%86%8C%EF%BC%8C%E4%BD%A0%E7%9A%84%E6%99%BA%E8%83%BD%E7%85%A7%E7%89%87%E7%AE%A1%E5%AE%B6&sd=24-bit&sr=1280x720&vp=1280x537&je=0&_u=CACAAEAB~&jid=1739754648&gjid=495126701&cid=180627465.1547383548&tid=UA-70495762-3&_gid=2046459839.1547383548&_r=1&z=1618508150 HTTP/1.1
+Host: www.google-analytics.com
+Connection: close
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://everphoto.cn/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+
+
+======================================================
+
+
+
+======================================================
+23:50:02  https://everphoto.cn:443  [123.58.9.58]
+======================================================
+HEAD /status HTTP/1.1
+Host: everphoto.cn
+Connection: close
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: */*
+Referer: https://everphoto.cn/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: _ga=GA1.2.180627465.1547383548; _gid=GA1.2.2046459839.1547383548; _gat=1
+
+
+======================================================
+
+
+
+======================================================
+23:50:04  https://everphoto.cn:443  [123.58.9.58]
+======================================================
+HEAD /status HTTP/1.1
+Host: everphoto.cn
+Connection: close
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: */*
+Referer: https://everphoto.cn/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: _ga=GA1.2.180627465.1547383548; _gid=GA1.2.2046459839.1547383548; _gat=1
+
+
+======================================================
+
+
+
+======================================================
+23:50:05  https://everphoto.cn:443  [123.58.9.58]
+======================================================
+HEAD /status HTTP/1.1
+Host: everphoto.cn
+Connection: close
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: */*
+Referer: https://everphoto.cn/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: _ga=GA1.2.180627465.1547383548; _gid=GA1.2.2046459839.1547383548; _gat=1
+
+
+======================================================
+
+
+
+======================================================
+23:50:37  http://10.143.190.136:80
+======================================================
+GET /vulns_count/?token= HTTP/1.1
+Host: 10.143.190.136
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+16:30:46  http://59.64.78.37:3001
+======================================================
+GET /Less-1/?id=1 HTTP/1.1
+Host: 59.64.78.37:3001
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=t1gofsd29t6q1m1neovk4m0461; security=impossible
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+16:30:46  http://detectportal.firefox.com:80  [104.75.169.27]
+======================================================
+GET /success.txt HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+16:30:52  http://detectportal.firefox.com:80  [104.75.169.27]
+======================================================
+GET /success.txt HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+16:30:57  http://59.64.78.37:3001
+======================================================
+HEAD /Less-1/ HTTP/1.1
+Host: 59.64.78.37:3001
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36
+Accept: */*
+Referer: http://59.64.78.37:3001/Less-1/?id=1
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: PHPSESSID=t1gofsd29t6q1m1neovk4m0461; security=impossible
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+16:32:11  https://hm.baidu.com:443  [220.181.33.11]
+======================================================
+GET /hm.gif?cc=1&ck=1&cl=24-bit&ds=1280x720&vl=732&ep=0&et=85&ja=0&ln=zh-cn&lo=0&lt=1556508736&rnd=681684579&si=0c0e9d9b1e7d617b3e6842e85b9fb068&su=https%3A%2F%2Fwww.jianshu.com%2Fsearch%3Fq%3D%25E5%25B9%25B3%25E5%2587%25A1%25E7%259A%2584%25E4%25B8%2596%25E7%2595%258C%26page%3D1%26type%3Dnote&v=1.2.47&lv=3&sn=9610&hh=%23%2Ffollows HTTP/1.1
+Host: hm.baidu.com
+Connection: close
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.jianshu.com/notifications
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: BAIDUID=56BA25BB57060F5B1CAE68037916A3B2:FG=1; BIDUPSID=56BA25BB57060F5B1CAE68037916A3B2; PSTM=1523426735; HMACCOUNT=563B79CBE99314A0; BDUSS=QwNFBWVnZkMnl5TmwyMS1VTGRiU2xqU1pvNG1wem9vUUFjTlhRVVFERlZ5a0ZiQVFBQUFBJCQAAAAAAAAAAAEAAABlzGZpwt69rTIwMTUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFU9GltVPRpbdm; __cfduid=d98efed20e7ad96b5185c5ca5dc3a13b11530951137; BDSFRCVID=jnkOJeC627kgqxc9GsAyhFyTyeO9x8bTH6aIYmfLKVIh3D11iuyKEG0PDf8g0Kub0uoMogKK0mOTHUFF_2uxOjjg8UtVJeC6EG0P3J; H_BDCLCKID_SF=JJkHoIKKtCvjDbTnMnbqKRK8qxOKbJ3e5C6H3bP8aJ5MbIQTXMnkbfJBDxrdaqRTBb5JbxO9H4bAe56TjqQzyPD7yajK2hRz2R5U_hO2JnoZhlbKyn7pQT8rbtFOK5Oib4DHXDbXab3vOIJzXpO15CuzBN5thURB2DkO-4bCWJ5TMl5jDh05y6TXDatjtT_8Jb3tWJTOaj6jDbTnMIT8bKCShUFsBqOAB2Q-5KL-0h54EC-ReJOqj4bD5b6bapJRJTTbbfbdJJjoMRvX2qJ-jR3XDUI8qT0ebmTxoUJDQCnJhhvG-x6K26_ebPRiJPr9QgbqslQ7tt5W8ncFbT7l5hKpbt-q0x-jLn7ZVD_-tID-MC8ReTDKDjcH2MtJa-QXHD7yWCv_aJvcOR5Jj6KbMP-L2M-80bJCMCblXxbX5lABJKnP3MA--fF4hfjrBh5A2n7RoCjVb4Tvsq0x0MOte-bQypoaJnQyBCOMahkMal7xOM5DQlPK5JkgMx6MqpQJQeQ-5KQN3KJmhpFu-n5jHjjQDHOP; delPer=0; BDRCVFR[feWj1Vr5u3D]=I67x6TjHwwYf0; BDORZ=B490B5EBF6F3CD402E515D22BCDA1598; pgv_pvi=9361764352; pgv_si=s8788574208; PSINO=1; HMVT=9840601cb51320c55bca4fa0f4949efe|1556515059|; H_PS_PSSID=26522_1441_28777_21089_18560_28772_28724_28964_28835_28585
+
+
+======================================================
+
+
+
+======================================================
+20:29:14  http://localhost:84  [127.0.0.1]
+======================================================
+POST /vulnerabilities/sqli/session-input.php HTTP/1.1
+Host: localhost:84
+Content-Length: 19
+Cache-Control: max-age=0
+Origin: http://localhost:84
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:84/vulnerabilities/sqli/session-input.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c; PHPSESSID=ik19gbhtno3o37r31vda6n82g5; thinkphp_show_page_trace=0|0; csrftoken=Dg5bXbAvzur4H2w2w5YMoEgqDgl51rLfdvH91F4iKLfigHVzG8ew9MqC6bMIBBmn; session=.eJyrVkouLkqLL8nPTs1TsqpWUkhSslKKyvXL9qtyy4gM98qOCsnI9Qv3yvVzDwLyAyv9jMKAco5VUeFRGf4hvlX-LpGG_iFu2VGOtrZKtTpKOfnpmQiTktwt8xLDTatSwv2yoiL8qpRqawGVXyWu.D4c3RQ.oUii-_axouzVw4s3RfS_6RgrcDs; io=RJizE3cR8mvihgwTAAAA; security=high
+Connection: close
+
+id=11&Submit=Submit
+======================================================
+
+
+
+======================================================
+20:29:14  http://localhost:84  [127.0.0.1]
+======================================================
+GET /vulnerabilities/sqli_blind/ HTTP/1.1
+Host: localhost:84
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:84/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c; PHPSESSID=ik19gbhtno3o37r31vda6n82g5; thinkphp_show_page_trace=0|0; csrftoken=Dg5bXbAvzur4H2w2w5YMoEgqDgl51rLfdvH91F4iKLfigHVzG8ew9MqC6bMIBBmn; session=.eJyrVkouLkqLL8nPTs1TsqpWUkhSslKKyvXL9qtyy4gM98qOCsnI9Qv3yvVzDwLyAyv9jMKAco5VUeFRGf4hvlX-LpGG_iFu2VGOtrZKtTpKOfnpmQiTktwt8xLDTatSwv2yoiL8qpRqawGVXyWu.D4c3RQ.oUii-_axouzVw4s3RfS_6RgrcDs; io=RJizE3cR8mvihgwTAAAA; security=high
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+20:29:19  http://localhost:84  [127.0.0.1]
+======================================================
+GET /vulnerabilities/sqli_blind/cookie-input.php HTTP/1.1
+Host: localhost:84
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:84/vulnerabilities/sqli_blind/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c; PHPSESSID=ik19gbhtno3o37r31vda6n82g5; thinkphp_show_page_trace=0|0; csrftoken=Dg5bXbAvzur4H2w2w5YMoEgqDgl51rLfdvH91F4iKLfigHVzG8ew9MqC6bMIBBmn; session=.eJyrVkouLkqLL8nPTs1TsqpWUkhSslKKyvXL9qtyy4gM98qOCsnI9Qv3yvVzDwLyAyv9jMKAco5VUeFRGf4hvlX-LpGG_iFu2VGOtrZKtTpKOfnpmQiTktwt8xLDTatSwv2yoiL8qpRqawGVXyWu.D4c3RQ.oUii-_axouzVw4s3RfS_6RgrcDs; io=RJizE3cR8mvihgwTAAAA; security=high
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+20:29:29  http://localhost:84  [127.0.0.1]
+======================================================
+GET /vulnerabilities/sqli_blind/cookie-input.php HTTP/1.1
+Host: localhost:84
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:84/vulnerabilities/sqli_blind/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c; PHPSESSID=ik19gbhtno3o37r31vda6n82g5; thinkphp_show_page_trace=0|0; csrftoken=Dg5bXbAvzur4H2w2w5YMoEgqDgl51rLfdvH91F4iKLfigHVzG8ew9MqC6bMIBBmn; session=.eJyrVkouLkqLL8nPTs1TsqpWUkhSslKKyvXL9qtyy4gM98qOCsnI9Qv3yvVzDwLyAyv9jMKAco5VUeFRGf4hvlX-LpGG_iFu2VGOtrZKtTpKOfnpmQiTktwt8xLDTatSwv2yoiL8qpRqawGVXyWu.D4c3RQ.oUii-_axouzVw4s3RfS_6RgrcDs; io=RJizE3cR8mvihgwTAAAA; security=high
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+20:31:30  http://localhost:84  [127.0.0.1]
+======================================================
+POST /vulnerabilities/sqli_blind/cookie-input.php HTTP/1.1
+Host: localhost:84
+Content-Length: 19
+Cache-Control: max-age=0
+Origin: http://localhost:84
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:84/vulnerabilities/sqli_blind/cookie-input.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c; PHPSESSID=ik19gbhtno3o37r31vda6n82g5; thinkphp_show_page_trace=0|0; csrftoken=Dg5bXbAvzur4H2w2w5YMoEgqDgl51rLfdvH91F4iKLfigHVzG8ew9MqC6bMIBBmn; session=.eJyrVkouLkqLL8nPTs1TsqpWUkhSslKKyvXL9qtyy4gM98qOCsnI9Qv3yvVzDwLyAyv9jMKAco5VUeFRGf4hvlX-LpGG_iFu2VGOtrZKtTpKOfnpmQiTktwt8xLDTatSwv2yoiL8qpRqawGVXyWu.D4c3RQ.oUii-_axouzVw4s3RfS_6RgrcDs; io=RJizE3cR8mvihgwTAAAA; security=high
+Connection: close
+
+id=11&Submit=Submit
+======================================================
+
+
+
+======================================================
+20:31:30  http://localhost:84  [127.0.0.1]
+======================================================
+GET /vulnerabilities/sqli_blind/ HTTP/1.1
+Host: localhost:84
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:84/vulnerabilities/sqli_blind/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: id=11; XDEBUG_SESSION=XDEBUG_ECLIPSE; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c; PHPSESSID=ik19gbhtno3o37r31vda6n82g5; thinkphp_show_page_trace=0|0; csrftoken=Dg5bXbAvzur4H2w2w5YMoEgqDgl51rLfdvH91F4iKLfigHVzG8ew9MqC6bMIBBmn; session=.eJyrVkouLkqLL8nPTs1TsqpWUkhSslKKyvXL9qtyy4gM98qOCsnI9Qv3yvVzDwLyAyv9jMKAco5VUeFRGf4hvlX-LpGG_iFu2VGOtrZKtTpKOfnpmQiTktwt8xLDTatSwv2yoiL8qpRqawGVXyWu.D4c3RQ.oUii-_axouzVw4s3RfS_6RgrcDs; io=RJizE3cR8mvihgwTAAAA; security=high
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+20:31:32  http://localhost:84  [127.0.0.1]
+======================================================
+GET /security.php HTTP/1.1
+Host: localhost:84
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:84/vulnerabilities/sqli_blind/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c; PHPSESSID=ik19gbhtno3o37r31vda6n82g5; thinkphp_show_page_trace=0|0; csrftoken=Dg5bXbAvzur4H2w2w5YMoEgqDgl51rLfdvH91F4iKLfigHVzG8ew9MqC6bMIBBmn; session=.eJyrVkouLkqLL8nPTs1TsqpWUkhSslKKyvXL9qtyy4gM98qOCsnI9Qv3yvVzDwLyAyv9jMKAco5VUeFRGf4hvlX-LpGG_iFu2VGOtrZKtTpKOfnpmQiTktwt8xLDTatSwv2yoiL8qpRqawGVXyWu.D4c3RQ.oUii-_axouzVw4s3RfS_6RgrcDs; io=RJizE3cR8mvihgwTAAAA; security=high
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+20:31:34  http://localhost:84  [127.0.0.1]
+======================================================
+POST /security.php HTTP/1.1
+Host: localhost:84
+Content-Length: 80
+Cache-Control: max-age=0
+Origin: http://localhost:84
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:84/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c; PHPSESSID=ik19gbhtno3o37r31vda6n82g5; thinkphp_show_page_trace=0|0; csrftoken=Dg5bXbAvzur4H2w2w5YMoEgqDgl51rLfdvH91F4iKLfigHVzG8ew9MqC6bMIBBmn; session=.eJyrVkouLkqLL8nPTs1TsqpWUkhSslKKyvXL9qtyy4gM98qOCsnI9Qv3yvVzDwLyAyv9jMKAco5VUeFRGf4hvlX-LpGG_iFu2VGOtrZKtTpKOfnpmQiTktwt8xLDTatSwv2yoiL8qpRqawGVXyWu.D4c3RQ.oUii-_axouzVw4s3RfS_6RgrcDs; io=RJizE3cR8mvihgwTAAAA; security=high
+Connection: close
+
+security=medium&seclev_submit=Submit&user_token=94bb8fe107397dc2a123a575d5d3fe32
+======================================================
+
+
+
+======================================================
+20:31:34  http://localhost:84  [127.0.0.1]
+======================================================
+GET /security.php HTTP/1.1
+Host: localhost:84
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:84/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: XDEBUG_SESSION=XDEBUG_ECLIPSE; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c; PHPSESSID=ik19gbhtno3o37r31vda6n82g5; thinkphp_show_page_trace=0|0; csrftoken=Dg5bXbAvzur4H2w2w5YMoEgqDgl51rLfdvH91F4iKLfigHVzG8ew9MqC6bMIBBmn; session=.eJyrVkouLkqLL8nPTs1TsqpWUkhSslKKyvXL9qtyy4gM98qOCsnI9Qv3yvVzDwLyAyv9jMKAco5VUeFRGf4hvlX-LpGG_iFu2VGOtrZKtTpKOfnpmQiTktwt8xLDTatSwv2yoiL8qpRqawGVXyWu.D4c3RQ.oUii-_axouzVw4s3RfS_6RgrcDs; io=RJizE3cR8mvihgwTAAAA; security=medium
+Connection: close
+
+
+======================================================
+
+
+
+======================================================
+20:31:36  http://localhost:84  [127.0.0.1]
+======================================================
+GET /vulnerabilities/sqli_blind/ HTTP/1.1
+Host: localhost:84
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:84/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: id=11; XDEBUG_SESSION=XDEBUG_ECLIPSE; NAGASCAN-ID=0010018336417540987fff4508f43fbaed718e263442526000-1546413234-4b5071c702dfb4c4dfbd3e93c36b1b9c; PHPSESSID=ik19gbhtno3o37r31vda6n82g5; thinkphp_show_page_trace=0|0; csrftoken=Dg5bXbAvzur4H2w2w5YMoEgqDgl51rLfdvH91F4iKLfigHVzG8ew9MqC6bMIBBmn; session=.eJyrVkouLkqLL8nPTs1TsqpWUkhSslKKyvXL9qtyy4gM98qOCsnI9Qv3yvVzDwLyAyv9jMKAco5VUeFRGf4hvlX-LpGG_iFu2VGOtrZKtTpKOfnpmQiTktwt8xLDTatSwv2yoiL8qpRqawGVXyWu.D4c3RQ.oUii-_axouzVw4s3RfS_6RgrcDs; io=RJizE3cR8mvihgwTAAAA; security=medium
+Connection: close
+
+
+======================================================
+
+
+
