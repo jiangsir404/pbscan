@@ -3,3 +3,6 @@
 .phpintel
 *.pyc
 output
+*.out
+*.log
+*.html

@@ -82,6 +82,6 @@ CREATE TABLE `admin` (
 LOCK TABLES `admin` WRITE;
 /*!40000 ALTER TABLE `admin` DISABLE KEYS */;
 INSERT INTO `admin` VALUES (1,'26a696bdcb160b8c274b37af6b9bb625','admin',md5('admin'),'2461805286@qq.com',NULL,1);
-INSERT INTO `admin` VALUES (2,'parse_burp_log','pbscan',md5('pbscan'),'15801001202@qq.com',NULL,1);
+INSERT INTO `admin` VALUES (2,'parse_burp_log','pbscan',md5('pbscan'),'rivirsec@qq.com',NULL,1);
 /*!40000 ALTER TABLE `admin` ENABLE KEYS */;
 UNLOCK TABLES;

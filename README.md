@@ -48,6 +48,41 @@ optional arguments:
 - [x] 支持burpsuite 报表结果显示，用thinkphp写的展示平台来进行结果展示。
 - [x] 利用burp插件或chrome插件来进行代理获取数据包，可以实现代理式被动扫描。
 
+## 安装使用
+1. 依赖安装
+```
+wget http://www.rabbitmq.com/rabbitmq-signing-key-public.asc
+sudo apt-key add rabbitmq-signing-key-public.asc  
+sudo apt-get update
+sudo apt-get install rabbitmq-server
+pip install pika
+pip install gevent
+pip install MySQL-python
+```
+2. 导入数据库sql.sql, 修改pbscan-server/config.py 中的配置信息
+
+3. 部署运行, 有两种方式可以集中部署，一个是通过supervisor的方式来部署，另一个是直接用nohup后台进程运行。
+
+**supervisor部署**
+```
+#先安装supervisor软件:
+apt-get install supervisor
+pip install supervisor
+
+# 修改pbscan_supervisor.conf的路径， 启动supervisor
+cp pbscan_supervisor.conf /etc/supervisor/conf.d
+supervisord
+supervisorctl update
+supervisorctl status
+```
+
+**使用nohup后台部署**
+```
+bash start.sh
+```
+
+如果只想要api的接口，也可以单独运行pbscan-api。
+
 ## api扫描接口
 ![](./doc/1.jpg)
 获取结果显示:
