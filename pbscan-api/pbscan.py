@@ -6,6 +6,7 @@
 Usage:
 	python pbscan -h
 	python pbscan.py -auto=8083 -headless  //在服务端运行pbscan.py , 使用-headless无头模式运行burpsuite, 监听8083端口, 接收传过来的数据包。
+	python pbscan.py -f ./test/data.txt -headess  -debug //读取数据包进行扫描测试
 """
 
 import argparse

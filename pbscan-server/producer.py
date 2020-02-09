@@ -14,17 +14,16 @@ import sys
 import time
 import json
 
+# 导入bottle api所需的依赖库
+from bottle import route, run, request
+import six
+import paste
+
 # 第三方库
 from config import scan_rules, black_rules,mydb
-from core.bottle import route, run, request
 from lib.utils.basic import highlight
 from lib.utils.pika_mq import send, send2
 from lib.http.parse_request import parse_request_info, parse_url_info,getRid,parse_request_service,request_filter
-
-# 导入bottle api所需的依赖库
-sys.path.append('./core/thirdpart/Paste-3.0.5')
-sys.path.append('./core/thirdpart/six-1.12.0')
-import paste
 
 
 debug = 0 # 是否开启调试

@@ -1,0 +1,10 @@
+GET /vulnerabilities/xss_r/?name=11&user_token=f17e314ea59bfe220a3a1084c6c2769b HTTP/1.1
+Host: localhost:84
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:84/vulnerabilities/xss_r/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,de-DE;q=0.8,de;q=0.7
+Cookie: security=impossible; PHPSESSID=cvftff8itrp0vn1bsji2opk796; security=low

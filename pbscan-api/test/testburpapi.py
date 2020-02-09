@@ -5,7 +5,7 @@ import requests
 import sys
 import json
 
-token = 'parse_burp_log'
+token = '098f6bcd4621d373cade4e832627b4f6'
 
 with open('./data.txt') as f:
 	data = f.read()
