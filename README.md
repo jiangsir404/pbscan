@@ -27,7 +27,7 @@ optional arguments:
 
 	curl -vgw "\n" -X POST 'http://localhost:1337/v0.1/scan' -d '{"scan_callback":{"url":"http://123.206.65.167:2000"},"scan_configurations":[{"name":"myburp","type":"NamedConfiguration"}],"scope":{"include":[{"rule":"http://localhost:82/*","type":"SimpleScopeDef"}]},"urls":["http://localhost:82/myctf/xss/xss.php?d=1&x=1"]}'
 
-![](1.png)
+![](./1.png)
 
 扫描方式: 输入url->spider(模拟表单登陆)->scanner 扫描。
 
@@ -37,7 +37,7 @@ optional arguments:
 
 ## pbscan功能
 
-![](0.png)
+![](./doc/0.png)
 
 - [x] 再carbonator的基础上进行开发，通过内置bottle服务器实现burpsuite 1.7的扫描api接口
 - [x] 扫描接口可以实现发送数据包直接到scanner去扫描，无需经过spider, 自带cookie扫描。
@@ -49,7 +49,7 @@ optional arguments:
 - [x] 利用burp插件或chrome插件来进行代理获取数据包，可以实现代理式被动扫描。
 
 ## api扫描接口
-![](1.jpg)
+![](./doc/1.jpg)
 获取结果显示:
 ```
 [
